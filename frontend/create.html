@@ -1,7 +1,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Sign Up</title>
+        <title>Create an Event</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -17,35 +17,29 @@
         </noscript>
     </head>
 
-
  <section id="three" class="wrapper style3 special">
   <div class="container">
     <header class="major">
-      <h2>Sign up</h2>
-      <p>Sign up to participate in and organize trash clean up events in your comminity.</p>
+      <h2>Event Information</h2>
     </header>
   </div>
   <div class="container 50%">
     <form action="#" method="post">
       <div class="input-group">
-        <span class="input-group margine-bottom-sm"><i class="fa fa-user-o"></i> Username</span>
-        <input class="form-control" type="text" placeholder"John Doe">
+        <span class="input-group margin-bottom-m">Title</span>
+        <input title="title" id="title" value="" type="text" placeholder="Title">
       </div>
-      <div class="input-group margin-bottom-addon">
-        <span class="input-group-addon"><i class="fa fa-envelope-o"></i> Email Address</span>
-        <input class="form-control" type="text" placeholder="john.doe@example.com">
+      <div class="input-group margin-bottom-m">
+        <span class="input-group-addon">Date</span>
+        <input class="form-control" type="text" placeholder="MM/DD/YYYY">
       </div>
-      <div class="input-group">
-        <span class="input-group-addon"><i class="fa fa-map-marker"></i> Zipcode</span>
-        <input class="form-control" type="number" placeholder="123456">
+      <div class="12u$ margin-bottom-m">
+        <span>Description</span>
+        <textarea name="body" id="body" value="" type="text" placeholder="Description" rows="6"></textarea>
       </div>
-      <div class="input-group">
-        <span class="input-group-addon"><i class="fa fa-key"></i> Password</span>
-        <input class="form-control" type="password" placeholder="Password">
-        </div>
       <div class="12u$">
         <ul class="actions">
-            <input value="Send Message" class="special big" type="submit"></li>
+        <input value="Create Event" class="special big" type="submit">
         </ul>
       </div>
     </form>
